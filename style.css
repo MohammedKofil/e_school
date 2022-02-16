@@ -51,8 +51,11 @@ span{
     border-radius: 10px;
     width: 270px;
     height: 270px;
-    background-color: #F8FFFB;;
-
+    background-color: #F8FFFB;
+    align-items: center;
+}
+.card p{
+    text-align: center;
 }
 .cat-2{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);

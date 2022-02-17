@@ -7,8 +7,12 @@ header{
 span{
     color: #21B573;
 }
+h3, h4{
+    color:#413960;
+    font-weight: bolder;
+}
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .navbar{
     display: flex;
@@ -41,23 +45,53 @@ span{
     width: 153px;
     height: 43px;
 }
-.card img{
+.catagories img{
     width: 66px;
     height: 85px;
 }
-.card{
+.c{
     padding: 8%;
     margin: 3%;
     border-radius: 10px;
-    width: 270px;
-    height: 270px;
+    /* width: 270px;
+    height: 270px; */
     background-color: #F8FFFB;
     align-items: center;
 }
-.card p{
+.c p{
     text-align: center;
 }
 .cat-2{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF !important;
+}
+.top{
+    text-align: center;
+}
+.card-footer{
+    background-color: none !important;
+}
+.card{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.card-footer img{
+    width: 24px;
+    height: 24px;
+}
+.test{
+    padding-right: 15%;
+    padding-left: 15%;
+    margin: 5%;
+}
+.test img{
+    width: 120px;
+    height: 120px;
+}
+.img-t, .test-body-t{
+    margin: 5%;
+    align-items: center;
+}
+.test-body-t{
+    text-align: justify;
 }
